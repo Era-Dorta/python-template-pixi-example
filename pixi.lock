@@ -1020,8 +1020,8 @@ packages:
   requires_python: '>=2.7,!=3.0.*,!=3.1.*,!=3.2.*'
 - pypi: ./
   name: python-template-pixi-example
-  version: 0.2.1.dev4+g9f8cd3940.d20251024
-  sha256: 1d18bb443ecfc43ae8c886f06642bf9135c757ee48a3104acf047400fa7bfd14
+  version: 0.2.1.dev5+g55ff52159
+  sha256: 22da7f8300b43ad333f21a384ac4cc9fe0439db08ade8b37a081e6211932e0fa
   requires_dist:
   - hatch>=1.13.0,<2 ; extra == 'dev'
   - mkdocs-material>=9.5.39,<10 ; extra == 'dev'

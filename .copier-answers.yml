@@ -1,14 +1,14 @@
 # Changes here will be overwritten by Copier
-_commit: v0.2.19
+_commit: v0.3.3-18-gdb90114
 _src_path: ./python-project-template/
-email: email@tudelft.nl
+email: e.dorta@tudelft.nl
 environment_manager: pixi
 full_name: A name
-host: gitlab.ewi.tudelft.nl
+host: github.com
 license: GPL
-min_python_version: '3.10'
-org: reit
+min_python_version: '3.12'
+org: Era-Dorta
 project_name: python-template-pixi-example
 project_short_description: A python template pixi example.
 python_name: python_template_pixi_example
-url: https://gitlab.ewi.tudelft.nl/reit/python-template-pixi-example
+url: https://github.com/Era-Dorta/python-template-pixi-example

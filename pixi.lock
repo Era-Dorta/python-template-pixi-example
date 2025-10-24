@@ -109,6 +109,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/90/96/04b8e52da071d28f5e21a805b19cb9390aa17a47462ac87f5e2696b9566d/paginate-0.5.7-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/cc/20/ff623b09d963f88bfde16306a54e12ee5ea43e9b597108672ff3a408aad6/pathspec-0.12.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9e/c3/059298687310d527a58bb01f3b1965787ee3b40dce76752eda8b44e9a2c5/pexpect-4.9.0-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/b7/3f/945ef7ab14dc4f9d7f40288d2df998d1837ee0888ec3659c813487572faa/pip-25.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/73/cb/ac7874b3e5d58441674fb70742e6c374b28b0c7cb988d37d991cde47166c/platformdirs-4.5.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/07/92/caae8c86e94681b42c246f0bca35c059a2f0529e5b92619f6aba4cf7e7b6/pre_commit-3.8.0-py2.py3-none-any.whl
@@ -881,6 +882,11 @@ packages:
   sha256: 7236d1e080e4936be2dc3e326cec0af72acf9212a7e1d060210e70a47e253523
   requires_dist:
   - ptyprocess>=0.5
+- pypi: https://files.pythonhosted.org/packages/b7/3f/945ef7ab14dc4f9d7f40288d2df998d1837ee0888ec3659c813487572faa/pip-25.2-py3-none-any.whl
+  name: pip
+  version: '25.2'
+  sha256: 6d67a2b4e7f14d8b31b8b52648866fa717f45a1eb70e83002f4331d07e953717
+  requires_python: '>=3.9'
 - pypi: https://files.pythonhosted.org/packages/73/cb/ac7874b3e5d58441674fb70742e6c374b28b0c7cb988d37d991cde47166c/platformdirs-4.5.0-py3-none-any.whl
   name: platformdirs
   version: 4.5.0
@@ -1014,12 +1020,13 @@ packages:
   requires_python: '>=2.7,!=3.0.*,!=3.1.*,!=3.2.*'
 - pypi: ./
   name: python-template-pixi-example
-  version: 0.2.1.dev1+g9e13b4e61
-  sha256: a6cc09f8e366f16ba553ce93b9379a1d2ae540ee2d6d249e7dfcd65753939204
+  version: 0.2.1.dev4+g9f8cd3940.d20251024
+  sha256: 1d18bb443ecfc43ae8c886f06642bf9135c757ee48a3104acf047400fa7bfd14
   requires_dist:
   - hatch>=1.13.0,<2 ; extra == 'dev'
   - mkdocs-material>=9.5.39,<10 ; extra == 'dev'
   - mkdocstrings[python]>=0.26.1,<1 ; extra == 'dev'
+  - pip>=25.2,<26 ; extra == 'dev'
   - pre-commit>=3.8.0,<4 ; extra == 'dev'
   - pytest-cov>=5.0.0,<6 ; extra == 'dev'
   - pytest>=8.3.3,<9 ; extra == 'dev'
